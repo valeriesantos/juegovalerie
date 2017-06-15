@@ -1,0 +1,62 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-oracle/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/valerie/Escritorio/DAM/Programacion/78bba85edb6dbb89fb59:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/home/valerie/Escritorio/DAM/Programacion/JuegoValerie
+-d
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java
+<---- end of javadoc command ---->
+Loading source file /home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java...
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:103: error: <identifier> expected
+        timeline = new Timeline(new KeyFrame(Duration.millis(5), 
+                ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:159: error: <identifier> expected
+        timeline.setCycleCount(Timeline.INDEFINITE);
+                              ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:159: error: <identifier> expected
+        timeline.setCycleCount(Timeline.INDEFINITE);
+                                                  ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:161: error: <identifier> expected
+        scene.setOnKeyPressed(event -> {         
+                             ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:161: error: <identifier> expected
+        scene.setOnKeyPressed(event -> {         
+                                   ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:176: error: illegal start of type
+            });
+             ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:177: error: <identifier> expected
+        escenario.setScene(scene);
+                          ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:177: error: <identifier> expected
+        escenario.setScene(scene);
+                                ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:178: error: <identifier> expected
+        escenario.show();
+                      ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:179: error: <identifier> expected
+        timeline.play();
+                     ^
+/home/valerie/Escritorio/DAM/Programacion/JuegoValerie/Paparazzi.java:182: error: class, interface, or enum expected
+}
+^
+11 errors
